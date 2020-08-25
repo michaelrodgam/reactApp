@@ -3,3 +3,49 @@
   padding: 0;
 }
 
+.header{
+  color: azure;
+  background-color: #333;
+  padding: 1em 30px;
+  text-align: center;
+}
+
+.footer{
+  margin-top: 1em;
+  padding: 25px;
+	text-shadow: 2px 2px 8px gray;
+	color: white;
+	background-color: #1c4966;
+	border-top: 2px dotted slategrey;
+  border-radius: 3px;
+}
+
+.rowContent{
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ToDoList{
+  padding: 20px;
+  margin: 0 auto;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  box-shadow: 0 1px 1px gray, 0 10px 0 -5px gray;
+}
+
+.ToDoItem{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 2px solid rgb(52, 86, 148);
+  text-align: center;
+  width: 70%;
+  padding: 15px 5px;
+  background-color: rgb(154, 181, 231);
+  color: aliceblue;
+}
